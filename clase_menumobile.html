@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Menu Mobile</title>
+</head>
+<style>
+    :root{
+        --very-light-pink: #c7c7c7;
+        --text-input-field: #f7f7f7;
+        --hospital-green: #ACD982;
+        --white: #ffffff;
+        --black: #000000;
+        --sm: 1.5rem;
+        --md: 1.8rem;
+        --lg: 2rem;
+    }
+    html{
+        font-size: 62.25%;
+    }
+    body{
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .mobile-menu{
+        padding: 2.4rem;
+    }
+    .mobile-menu a{
+        color: var(--black);
+        font-size: var(--sm);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .mobile-menu ul{
+        padding: 0;
+        margin: 2.4rem 0 0;
+        list-style: none;
+    }
+    .mobile-menu ul li{
+        margin-bottom: 2.4rem;
+    }
+    .mobile-menu ul:nth-child(1){
+        border-bottom: 0.2rem solid var(--very-light-pink);
+    }
+    .email {
+        font-size: var(--sm);
+        font-weight: 300 !important;
+    }
+    .sign-out{
+        color: var(--hospital-green) !important;
+        font-size: var(--sm);
+    }
+</style>
+<body>
+    <div class="mobile-menu">
+        <h1>CATEGORIES</h1>
+        <ul>
+            <li>
+                <a href="#">All</a>
+            </li>
+            <li>
+                <a href="#">Clothes</a>
+            </li>
+            <li>
+                <a href="#">Electronics</a>
+            </li>
+            <li>
+                <a href="#">Furnitures</a>
+            </li>
+            <li>
+                <a href="#">Tays</a>
+            </li>
+            <li>
+                <a href="#">Others</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <a href="#">My orders</a>
+            </li>
+            <li>    
+                <a href="#">My account</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <a href="#" class="email">correo@example.com</a>
+            </li>
+            <li>
+                <a href="#" class="sign-out">Sign out</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

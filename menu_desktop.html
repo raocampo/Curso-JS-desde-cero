@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica-Menu Desktop</title>
+</head>
+<style>
+    :root{
+        --very-light-pink: #c7c7c7;
+        --text-input-field: #f7f7f7;
+        --hospital-green: #ACD982;
+        --white: #ffffff;
+        --black: #000000;
+        --sm: 1.5rem;
+        --md: 1.8rem;
+        --lg: 2rem;
+    }
+    html{
+        font-size: 62.25%;
+    }
+    body{
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .desktop-menu{
+        width: 10rem;
+        height: auto;
+        border: 0.2rem solid var(--very-light-pink);
+        border-radius: 0.6rem;
+        padding: 2rem 2rem 0 2rem;
+    }
+    .desktop-menu ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .desktop-menu ul li{
+        text-align: end;
+    }
+    .desktop-menu ul li:nth-child(1),
+    .desktop-menu ul li:nth-child(2){
+        font-weight: bold;
+        font-size: var(--sm);
+    }
+    .desktop-menu ul li:last-child{
+        padding-top: 2rem;
+        border-top: 0.2rem solid var(--very-light-pink);
+    }
+    .desktop-menu ul li:last-child a{ 
+        color: var(--hospital-green);
+        font-size: var(--sm);
+    }
+    .desktop-menu ul li a{
+        display: inline-block; 
+        color: var(--black);
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+</style>
+<body>
+    <div class="desktop-menu">
+        <ul>
+            <li>
+                <a href="#" class="title">My orders</a>
+            </li>
+            <li>
+                <a href="#">My account</a>
+            </li>
+            <li>
+                <a href="#">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
