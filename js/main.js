@@ -77,6 +77,11 @@ listaProductos.push({
     precio: 120,
     imagen: 'img/bicla.jpg'
 })
+listaProductos.push({
+    nombre: 'Bicicleta',
+    precio: 120,
+    imagen: 'img/bicla.jpg'
+})
 
 function listaProdTerm(arr){
     for (producto of listaProductos){
@@ -84,6 +89,7 @@ function listaProdTerm(arr){
         productCard.classList.add('product-card');
         
         const imagenProd = document.createElement('img');
+        imagenProd.classList.add('product-image');
         imagenProd.setAttribute('src', producto.imagen);
     
         const infoProducto = document.createElement('div');
